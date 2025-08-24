@@ -61,14 +61,17 @@ fun AddressCard(
                         fontWeight = FontWeight.Bold
                     )
 
-                     Menu()
+                     Icon_Profile()
                 }
 
                 Spacer(modifier = Modifier.height(16.dp))
 
+                val countAppBloqueados = 4 // placeholder enquando não há integração com a OASP
+
                 Text(
-                    text = "4 Aplicativos Bloqueados"
+                    text = "$countAppBloqueados Aplicativos Bloqueados"
                 )
+
                 Spacer(modifier = Modifier.height(16.dp))
 
                 Box(
@@ -76,7 +79,9 @@ fun AddressCard(
                     contentAlignment = Alignment.Center
                 ) {
                     Button(
-                        onClick = { /* ação */ },
+                        onClick = { /*
+                        Ação para ativar o modo foco do perfil
+                         */ },
                         shape = RoundedCornerShape(8.dp),
                         modifier = Modifier.width(200.dp),
                         colors = ButtonDefaults.buttonColors(
@@ -121,13 +126,15 @@ fun AddressCard(
                         fontWeight = FontWeight.Bold
                     )
 
-                    Menu()
+                    Icon_Profile()
                 }
 
                 Spacer(modifier = Modifier.height(16.dp))
 
+                val countAppBloqueados = 6 // placeholder enquando não há integração com a OASP
+
                 Text(
-                    text = "2 Aplicativos Bloqueados"
+                    text = "$countAppBloqueados Aplicativos Bloqueados"
                 )
                 Spacer(modifier = Modifier.height(16.dp))
 
@@ -136,7 +143,9 @@ fun AddressCard(
                     contentAlignment = Alignment.Center
                 ) {
                     Button(
-                        onClick = { /* ação */ },
+                        onClick = { /*
+                        Ação para ativar o modo foco do perfil
+                         */ },
                         shape = RoundedCornerShape(8.dp),
                         modifier = Modifier.width(200.dp),
                         colors = ButtonDefaults.buttonColors(
@@ -181,13 +190,15 @@ fun AddressCard(
                         fontWeight = FontWeight.Bold
                     )
 
-                    Menu()
+                    Icon_Profile()
                 }
 
                 Spacer(modifier = Modifier.height(16.dp))
 
+                val countAppBloqueados = 6 // placeholder enquando não há integração com a OASP
+
                 Text(
-                    text = "5 Aplicativos Bloqueados"
+                    text = "$countAppBloqueados Aplicativos Bloqueados"
                 )
                 Spacer(modifier = Modifier.height(16.dp))
 
@@ -196,7 +207,9 @@ fun AddressCard(
                     contentAlignment = Alignment.Center
                 ) {
                     Button(
-                        onClick = { /* ação */ },
+                        onClick = { /*
+                         Ação para ativar o modo foco do perfil
+                         */ },
                         shape = RoundedCornerShape(8.dp),
                         modifier = Modifier.width(200.dp),
                         colors = ButtonDefaults.buttonColors(
