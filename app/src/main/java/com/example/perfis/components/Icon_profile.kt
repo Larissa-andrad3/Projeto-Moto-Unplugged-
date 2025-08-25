@@ -37,7 +37,7 @@ fun Icon_Profile(
             imageVector = Icons.Default.Edit,
             contentDescription = "Editar",
             modifier = modifier
-                .size(48.dp)
+                .size(15.dp)
                 .clickable {
                     //Ação para a tela de editar perfil
                     println("Clicou no icon")
