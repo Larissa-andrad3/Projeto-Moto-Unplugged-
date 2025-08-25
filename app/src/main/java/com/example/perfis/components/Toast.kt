@@ -1,7 +1,4 @@
 package com.example.perfis.components
-
-import android.content.Context
-import android.widget.Toast
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
@@ -22,8 +19,6 @@ import androidx.compose.material3.Text
 
 
 
-
-
 @Composable
 fun CustomToast(
     message: String,
@@ -37,13 +32,13 @@ fun CustomToast(
     ) {
         Row(
             modifier = Modifier
-                .background(Color(0xFF808080), RoundedCornerShape(12.dp))
+                .background(Color(0xFF000000), RoundedCornerShape(12.dp))
                 .padding(horizontal = 16.dp, vertical = 12.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
             Icon(
-                imageVector = Icons.Default.Check, // você pode trocar depois
-                contentDescription = null,
+                imageVector = Icons.Default.Check,
+                contentDescription = "Check",
                 tint = Color.White
             )
 

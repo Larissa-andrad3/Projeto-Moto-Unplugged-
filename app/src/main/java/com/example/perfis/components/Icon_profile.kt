@@ -20,7 +20,7 @@ import androidx.compose.ui.unit.dp
 
 
 @Composable
-fun Icon_Profile(
+fun Icon_Edit_Profile(
     modifier: Modifier = Modifier
 ) {
     Row (
@@ -37,7 +37,7 @@ fun Icon_Profile(
             imageVector = Icons.Default.Edit,
             contentDescription = "Editar",
             modifier = modifier
-                .size(15.dp)
+                .size(16.dp)
                 .clickable {
                     //Ação para a tela de editar perfil
                     println("Clicou no icon")
@@ -59,7 +59,7 @@ fun Icon_ProfilePreview() {
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Icon_Profile()
+        Icon_Edit_Profile()
 
     }
 
