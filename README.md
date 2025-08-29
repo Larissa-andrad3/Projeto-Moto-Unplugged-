@@ -1,3 +1,3 @@
 <h1 align = "center">
-   <p> not every hero wears a cape!!!</p>
+   <p> not every hero wears a capes!!!</p>
 </h1>
